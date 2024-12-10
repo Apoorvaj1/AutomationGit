@@ -10,5 +10,6 @@ public class happyFlow {
         driver.manage().deleteAllCookies();
         driver.get("https://testautomationpractice.blogspot.com/");
         System.out.println(driver.getTitle());
+        System.out.println("Hello World");
     }
 }
